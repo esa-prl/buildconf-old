@@ -1,0 +1,29 @@
+# This section of the file allows to modify the VCS information that is defined
+# in the package sets. Below is an example to change the branch name for a given
+# package
+#
+overrides:
+
+    - drivers/orogen/.*:
+      branch: master
+    - drivers/.*:
+      branch: master
+    - slam/orogen/.*:
+      branch: master
+    - slam/.*:
+      branch: master
+    - exoter/orogen/.*:
+      branch: master
+    - exoter/.*:
+      branch: master
+    - control/orogen/.*:
+      branch: master
+    - control/.*:
+      branch: master
+    - drivers/controldev:
+      branch: onedimensional
+    - drivers/orogen/controldev:
+      branch: onedimensional
+    - image_processing/orogen/viso2:
+      branch: master
+
