@@ -1,6 +1,6 @@
 #! /bin/sh
 
-CONF_SERVER=github.com:
+CONF_SERVER=github.com
 CONF_REPO=exoter-rover/buildconf.git
 RUBY=ruby
 
