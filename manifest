@@ -3,6 +3,8 @@ package_sets:
       branch: rock1408
     - github: rock-core/rock-package_set
       branch: rock1408
+    - github: exoter-rover/exoter-package_set
+      branch: master
 
 layout:
     # COMPLETE PACKAGES
