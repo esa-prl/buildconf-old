@@ -27,16 +27,7 @@ require 'autoproj/gitorious'
 Autoproj.gitorious_server_configuration('GITHUB', 'github.com', :http_url => 'https://github.com')
 Autoproj.gitorious_server_configuration('GITORIOUS', 'gitorious.org')
 
-require './autoproj/rock'
-rock_autoproj_init
-
 Autoproj.env_inherit 'CMAKE_PREFIX_PATH'
-
-rock_external_dir = File.expand_path(File.join(File.dirname(__FILE__),"../external"))
-if not (File.exists?(rock_external_dir) && File.directory?(rock_external_dir))
-    puts ("  Create folder #{rock_external_dir}")
-    Dir::mkdir(rock_external_dir)
-end
 
 Autobuild.env_set 'LANG','C'
 Autobuild.env_set 'LC_NUMERIC','C'
