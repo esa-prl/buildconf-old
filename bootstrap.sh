@@ -1,6 +1,7 @@
 #! /bin/sh
 
-CONF_REPO=rock/buildconf.git
+CONF_SERVER=github.com
+CONF_REPO=exoter-rover/buildconf.git
 RUBY=ruby
 
 set -e
@@ -51,9 +52,12 @@ do
     ANSWER=`echo $ANSWER | tr "[:upper:]" "[:lower:]"`
 done
 
-$RUBY autoproj_bootstrap $@ git http://github.com/exoter-rover/buildconf/blob/master/bootstrap.sh branch=master
+if [ "$ANSWER" = "n" ]; then
+    $RUBY autoproj_bootstrap $@ git http://$CONF_SERVER/$CONF_REPO push_to=git@$CONF_SERVER:$CONF_REPO branch=master
+else
+    $RUBY autoproj_bootstrap $@ git git@$CONF_SERVER/$CONF_REPO push_to=git@$CONF_SERVER:$CONF_REPO branch=master
+fi
 
 if test "x$@" != "xlocaldev"; then
     $SHELL -c '. $PWD/env.sh; autoproj update; autoproj fast-build'
 fi
-
