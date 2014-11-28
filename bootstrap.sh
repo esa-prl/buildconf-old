@@ -51,7 +51,7 @@ do
     ANSWER=`echo $ANSWER | tr "[:upper:]" "[:lower:]"`
 done
 
-$RUBY autoproj_bootstrap $@ svn http://intranet.robotics.esa.int/svn/ROBS/trunk/buildconf branch=master
+$RUBY autoproj_bootstrap $@ git http://github.com/exoter-rover/buildconf/blob/master/bootstrap.sh branch=master
 
 if test "x$@" != "xlocaldev"; then
     $SHELL -c '. $PWD/env.sh; autoproj update; autoproj fast-build'

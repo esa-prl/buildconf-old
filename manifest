@@ -3,8 +3,6 @@ package_sets:
       branch: rock1408
     - github: rock-core/rock-package_set
       branch: rock1408
-    - type: svn
-      url: http://intranet.robotics.esa.int/svn/ROBS/trunk/package_set
 
 layout:
     # COMPLETE PACKAGES
