@@ -55,7 +55,7 @@ done
 if [ "$ANSWER" = "n" ]; then
     $RUBY autoproj_bootstrap $@ git http://$CONF_SERVER/$CONF_REPO push_to=git@$CONF_SERVER:$CONF_REPO branch=master
 else
-    $RUBY autoproj_bootstrap $@ git git@$CONF_SERVER/$CONF_REPO push_to=git@$CONF_SERVER:$CONF_REPO branch=master
+    $RUBY autoproj_bootstrap $@ git git@$CONF_SERVER:/$CONF_REPO push_to=git@$CONF_SERVER:$CONF_REPO branch=master
 fi
 
 if test "x$@" != "xlocaldev"; then
