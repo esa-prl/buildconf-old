@@ -18,5 +18,6 @@ layout:
     - gui/vizkit3d
 
 exclude_packages:
+    - slam/orogen/cloning_localization
     - communication/adrf
 
