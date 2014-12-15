@@ -30,7 +30,7 @@ fi
 
 echo "Found Ruby executable: $RUBY"
 
-$RUBY autoproj_bootstrap $@ git git@github.com:exoter-rover/buildconf.git push_to=git@github:exoter-rover/buildconf.git branch=master
+$RUBY autoproj_bootstrap $@ git git@github.com:exoter-rover/buildconf.git push_to=git@github.com:exoter-rover/buildconf.git branch=master
 
 . $PWD/env.sh
 autoproj update
