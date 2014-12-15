@@ -8,6 +8,8 @@ overrides:
       branch: master
     - drivers/.*:
       branch: master
+    - drivers/iodrivers_base:
+      branch: master
     - slam/orogen/.*:
       branch: master
     - slam/.*:

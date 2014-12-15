@@ -8,8 +8,8 @@ package_sets:
 
 layout:
     # COMPLETE PACKAGES
-    - exoter
     - rock.core
+    - exoter
 
     # ROCK GUI
     - gui/robot_model
