@@ -30,7 +30,23 @@ fi
 
 echo "Found Ruby executable: $RUBY"
 
-$RUBY autoproj_bootstrap $@ git git@github.com:exoter-rover/buildconf.git push_to=git@github.com:exoter-rover/buildconf.git branch=master
+echo "Do you want to use the git protocol to access the build configuration ?"
+echo "If the protocol is blocked by your network answer with no. The default is yes."
+
+# Check and interprete answer of "[y|n]"
+ANSWER="wrong"
+until test "$ANSWER" = "y" || test "$ANSWER" = "n" || test "$ANSWER" = ""
+do
+    echo "Use git protocol? [y|n] (default: y)"
+    read ANSWER
+    ANSWER=`echo $ANSWER | tr "[:upper:]" "[:lower:]"`
+done
+
+if [ "$ANSWER" = "n" ]; then
+    $RUBY autoproj_bootstrap $@ git https://github.com/exoter-rover/buildconf.git push_to=git@gitorious.org:$CONF_REPO branch=master
+else
+    $RUBY autoproj_bootstrap $@ git git@github.com:exoter-rover/buildconf.git push_to=git@github.com:exoter-rover/buildconf.git branch=master
+fi
 
 . $PWD/env.sh
 autoproj update
