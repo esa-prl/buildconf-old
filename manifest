@@ -19,5 +19,6 @@ layout:
 
 exclude_packages:
     - slam/orogen/cloning_localization
+    - slam/orogen/gp_odometry
     - communication/adrf
 
