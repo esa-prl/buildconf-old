@@ -48,7 +48,9 @@ else
     $RUBY autoproj_bootstrap $@ git git@github.com:exoter-rover/buildconf.git push_to=git@github.com:exoter-rover/buildconf.git branch=master
 fi
 
-. $PWD/env.sh
-autoproj update
+if test "x$@" != "xlocaldev"; then
+    . $PWD/env.sh
+    autoproj update
+    autoproj fast-build
+fi
 
-echo "\nProject should now be checked out. To compile it type 'amake'."
