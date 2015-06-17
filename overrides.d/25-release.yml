@@ -818,7 +818,7 @@
     tag: rock-15.05
     commit: 
 - slam/orogen/localization:
-    tag: rock-15.05
+    tag:
     commit: 
 - slam/orogen/north_seeker:
     tag: rock-15.05

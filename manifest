@@ -15,5 +15,4 @@ layout:
     - gui/vizkit3d
 
 exclude_packages:
-    - slam/orogen/gp_odometry
 
