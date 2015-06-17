@@ -15,7 +15,5 @@ layout:
     - gui/vizkit3d
 
 exclude_packages:
-    - slam/orogen/cloning_localization
     - slam/orogen/gp_odometry
-    - communication/adrf
 
