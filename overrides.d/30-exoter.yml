@@ -1,4 +1,8 @@
 ---
+- pkg_set:github:/exoter-rover/package_set.git:
+  branch: master
+  tag:
+  commit:
 - drivers/iodrivers_base:
   github: exoter-rover/drivers-iodrivers_base
   branch: master
