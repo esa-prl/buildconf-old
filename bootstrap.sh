@@ -1,5 +1,9 @@
 #!/bin/bash
 
+CONF_REPO=envire/buildconf.git
+RUBY=ruby
+AUTOPROJ_BOOTSTRAP_URL=http://rock-robotics.org/stable/autoproj_bootstrap
+
 set -e
 
 if ! test -f $PWD/autoproj_bootstrap; then
@@ -12,23 +16,9 @@ if ! test -f $PWD/autoproj_bootstrap; then
         echo "download the following script yourself, and re-run this script"
         exit 1
     fi
-    $DOWNLOADER http://www.rock-robotics.org/autoproj_bootstrap
+    $DOWNLOADER $AUTOPROJ_BOOTSTRAP_URL
 fi
 
-if which ruby1.9.3 > /dev/null; then
-    RUBY="ruby1.9.3"
-elif which ruby1.9.2 > /dev/null; then
-    RUBY="ruby1.9.2"
-elif which ruby1.9.1 > /dev/null; then
-    RUBY="ruby1.9.1"
-elif which ruby1.9 > /dev/null; then
-    RUBY="ruby1.9"
-else 
-    echo "Please instll ruby 1.9 (if you have it installed, please check the boostrap file for your version"
-    exit -1
-fi
-
-echo "Found Ruby executable: $RUBY"
 
 echo "Do you want to use the git protocol to access the build configuration ?"
 echo "If the protocol is blocked by your network answer with no. The default is yes."
