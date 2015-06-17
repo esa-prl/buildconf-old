@@ -243,9 +243,6 @@
 - drivers/imu_stim300:
     tag: rock-15.05
     commit: 
-- drivers/iodrivers_base:
-    tag: rock-15.05
-    commit: 
 - drivers/laser_filter:
     tag: rock-15.05
     commit: 
