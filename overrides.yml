@@ -44,4 +44,14 @@ overrides:
       branch: master
     - control/.*:
       branch: master
+    - slam/orogen/localization:
+      github: jhidalgocarrio/slam-orogen-localization.git
+      branch: master
+    - slam/localization:
+      github: jhidalgocarrio/slam-localization.git
+      branch: master
+    - slam/mtk:
+      github: rock-slam/slam-mtk.git
+      branch: master
+
 
