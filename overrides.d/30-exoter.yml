@@ -6,4 +6,12 @@
 - drivers/iodrivers_base:
   github: exoter-rover/drivers-iodrivers_base
   branch: master
+- drivers/controldev:
+    branch: onedimensional
+    tag:
+    commit: 
+- drivers/orogen/controldev:
+    branch: onedimensional
+    tag:
+    commit: 
 

@@ -210,7 +210,8 @@
     tag: rock-14.08
     commit: 
 - drivers/controldev:
-    tag: rock-14.08
+    branch:
+    tag:
     commit: 
 - drivers/ctd_seabird:
     tag: rock-15.05
@@ -292,7 +293,8 @@
     tag: rock-14.08
     commit: 
 - drivers/orogen/controldev:
-    tag: rock-15.05
+    branch:
+    tag:
     commit: 
 - drivers/orogen/ctd_seabird:
     tag: rock-15.05
