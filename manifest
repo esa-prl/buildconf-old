@@ -13,6 +13,8 @@ layout:
     - gui/control_ui
     - gui/vizkit
     - gui/vizkit3d
+    - perception/stereo
+    - perception/orogen/stereo
 
 exclude_packages:
     - slam/orogen/gp_odometry
