@@ -14,8 +14,6 @@ layout:
     - gui/control_ui
     - gui/vizkit
     - gui/vizkit3d
-    - perception/stereo
-    - perception/orogen/stereo
 
     # ENVIRE
     - envire/core
