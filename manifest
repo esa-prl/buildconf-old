@@ -2,6 +2,7 @@ package_sets:
     - github: rock-core/package_set
     - github: rock-core/rock-package_set
     - github: exoter-rover/exoter-package_set
+    - github: envire/package_set
 
 layout:
     # COMPLETE PACKAGES
@@ -13,6 +14,9 @@ layout:
     - gui/control_ui
     - gui/vizkit
     - gui/vizkit3d
+
+    # ENVIRE
+    - envire/core
 
 exclude_packages:
 
