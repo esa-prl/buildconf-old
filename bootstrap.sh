@@ -1,6 +1,6 @@
 #! /bin/sh
 
-CONF_URL=${CONF_URL:=https://github.com/rock-core/buildconf.git}
+CONF_URL=${CONF_URL:=https://github.com/exoter-rover/buildconf.git}
 RUBY=ruby
 AUTOPROJ_BOOTSTRAP_URL=http://rock-robotics.org/stable/autoproj_bootstrap
 BOOTSTRAP_ARGS=
