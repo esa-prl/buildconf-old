@@ -33,7 +33,7 @@ do
 done
 
 if [ "$ANSWER" = "n" ]; then
-    $RUBY autoproj_bootstrap $@ git https://github.com/exoter-rover/buildconf.git push_to=git@gitorious.org:$CONF_REPO branch=master
+    $RUBY autoproj_bootstrap $@ git https://github.com/exoter-rover/buildconf.git push_to=git@github.com:exoter-rover/buildconf.git branch=master
 else
     $RUBY autoproj_bootstrap $@ git git@github.com:exoter-rover/buildconf.git push_to=git@github.com:exoter-rover/buildconf.git branch=master
 fi
