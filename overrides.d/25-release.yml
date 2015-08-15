@@ -26,13 +26,13 @@
     tag: rock-15.05
     commit: 
 - base/console_bridge:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - base/doc:
     tag: rock-15.05
     commit: 
 - base/numeric:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - base/orogen/interfaces:
     branch: stable 
@@ -47,34 +47,34 @@
     tag: rock-15.05
     commit: 
 - base/templates/bundle:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - base/templates/cmake_lib:
     tag: rock-15.05
     commit: 
 - base/templates/cmake_vizkit_widget:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - base/templates/doc:
     branch: stable 
     commit: 
 - base/templates/ruby_lib:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - base/templates/vizkit:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - base/types:
     tag: rock-15.05
     commit: 
 - bundles/rock:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - bundles/rock_auv:
     tag: rock-15.05
     commit: 
 - bundles/rock_ugv_nav:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - bundles/tutorials:
     branch: stable 
@@ -86,17 +86,17 @@
     tag: rock-15.05
     commit: 
 - control/joint_dispatcher:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - control/kdl:
     branch: master
     tag: 
     commit: 264ef3f7c4ad553e7a391e0f104fda1ec5051925
 - control/kdl_conversions:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - control/kdl_parser:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - control/motor_controller:
     tag: rock-15.05
@@ -105,19 +105,19 @@
     tag: rock-15.05
     commit: 
 - control/orogen/auv_rel_pos_controller:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - control/orogen/cart_ctrl_wdls:
     tag: rock-15.05
     commit: 
 - control/orogen/joint_dispatcher:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - control/orogen/kdl:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - control/orogen/motor_controller:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - control/orogen/skid4_control:
     tag: rock-15.05
@@ -132,10 +132,10 @@
     tag: rock-15.05
     commit: 
 - control/orogen/waypoint_navigation:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - control/reflexxes:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - control/trajectory_follower:
     tag: rock-15.05
@@ -149,17 +149,17 @@
     tag: 
     commit: bedfc524fd3c81956d03eddd32de968a52537a82
 - control/waypoint_navigation:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - data_processing/openann:
     branch: master
     tag: 
     commit: 21216e3af0ed8165f752cb6c797a5985f8b10633
 - data_processing/orogen/statistics:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - data_processing/orogen/type_to_vector:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - data_processing/type_to_vector:
     tag: rock-15.05
@@ -171,7 +171,7 @@
     tag: rock-15.05
     commit: 
 - drivers/aggregator:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/alt_imagenex:
     tag: rock-15.05
@@ -186,13 +186,13 @@
     archive_dir: 
     url: http://rock-robotics.org/archives/ARIA-2.7.5.2.tgz
 - drivers/base_schilling:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/camera_aravis:
     tag: rock-15.05
     commit: 
 - drivers/camera_firewire:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/camera_ids:
     tag: rock-15.05
@@ -201,13 +201,13 @@
     tag: rock-15.05
     commit: 
 - drivers/camera_prosilica:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/camera_usb:
     tag: rock-15.05
     commit: 
 - drivers/canbus:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/controldev:
     branch:
@@ -220,10 +220,10 @@
     tag: rock-15.05
     commit: 
 - drivers/dvl_teledyne:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/dynamixel:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/fog_kvh:
     tag: rock-15.05
@@ -248,10 +248,10 @@
     tag: rock-15.05
     commit: 
 - drivers/laserscanner_sick:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/mb500:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/mbeam_imagenex:
     tag: rock-15.05
@@ -260,7 +260,7 @@
     tag: rock-15.05
     commit: 
 - drivers/orogen/aggregator:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/orogen/alt_imagenex:
     tag: rock-15.05
@@ -272,16 +272,16 @@
     tag: rock-15.05
     commit: 
 - drivers/orogen/camera_base:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/orogen/camera_firewire:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/orogen/camera_ids:
     tag: rock-15.05
     commit: 
 - drivers/orogen/camera_prosilica:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/orogen/camera_usb:
     tag: rock-15.05
@@ -290,7 +290,7 @@
     tag: rock-15.05
     commit: 
 - drivers/orogen/canbus:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/orogen/controldev:
     branch:
@@ -303,16 +303,16 @@
     tag: rock-15.05
     commit: 
 - drivers/orogen/dvl_teledyne:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/orogen/dynamixel:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/orogen/fog_kvh:
     tag: rock-15.05
     commit: 
 - drivers/orogen/gps:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/orogen/hokuyo:
     tag: rock-15.05
@@ -333,13 +333,13 @@
     tag: rock-15.05
     commit: 
 - drivers/orogen/laserscanner_sick:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/orogen/mbeam_imagenex:
     tag: rock-15.05
     commit: 
 - drivers/orogen/parport:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/orogen/phidgets:
     tag: rock-15.05
@@ -351,19 +351,19 @@
     tag: rock-15.05
     commit: 
 - drivers/orogen/ptu_directedperception:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/orogen/qualisys:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/orogen/servo_dynamixel:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/orogen/sonar_tritech:
     tag: rock-15.05
     commit: 
 - drivers/orogen/taskmon:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/orogen/tofcamera_mesasr:
     tag: rock-15.05
@@ -378,19 +378,19 @@
     tag: rock-15.05
     commit: 
 - drivers/orogen/vicon:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/orogen/video_streamer_vlc:
     tag: rock-15.05
     commit: 
 - drivers/orogen/wifimon:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/orogen/xsens_imu:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/parport:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/phidgets:
     mode: 1
@@ -404,10 +404,10 @@
     tag: rock-15.05
     commit: 
 - drivers/ptu_directedperception:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/qualisys:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/sonar_tritech:
     tag: rock-15.05
@@ -425,16 +425,16 @@
     tag: rock-15.05
     commit: 
 - drivers/vicon:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/video_capture_vlc:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/video_streamer_vlc:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - drivers/xsens_imu:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - external/aruco:
     mode: 1
@@ -464,7 +464,7 @@
     archive_dir: 
     url: http://lemon.cs.elte.hu/pub/sources/lemon-1.3.tar.gz
 - external/libply:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - external/minizip:
     mode: 3
@@ -541,19 +541,19 @@
     tag: rock-15.05
     commit: 
 - image_processing/jpeg_conversion:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - image_processing/libelas:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - image_processing/orogen/image_preprocessing:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - image_processing/orogen/projection:
     tag: rock-15.05
     commit: 
 - image_processing/orogen/stereo:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - image_processing/orogen/video_streamer:
     tag: rock-15.05
@@ -568,7 +568,7 @@
     tag: rock-15.05
     commit: 
 - image_processing/stereo:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - image_processing/viso2:
     mode: 3
@@ -603,7 +603,7 @@
     tag: rock-15.05
     commit: 
 - planning/corridor_planner:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - planning/fast_downward:
     mode: 1
@@ -661,13 +661,13 @@
     tag: rock-15.05
     commit: 
 - rtt_typelib:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - simulation/configmaps:
     tag: rock-15.05
     commit: 
 - simulation/imumodel:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - simulation/lib_manager:
     tag: rock-15.05
@@ -759,7 +759,7 @@
     archive_dir: 
     url: http://freefr.dl.sourceforge.net/project/opende/ODE/0.12/ode-0.12.tar.bz2
 - simulation/orogen/imumodel:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - simulation/orogen/mars:
     tag: rock-15.05
@@ -800,10 +800,10 @@
     tag: v1.6.8
     commit: 
 - slam/odometry:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - slam/orogen/envire:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - slam/orogen/eslam:
     tag: rock-15.05
@@ -827,7 +827,7 @@
     tag: rock-15.05
     commit: 
 - slam/orogen/orientation_estimator:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - slam/orogen/pose_estimation:
     tag: rock-15.05
@@ -836,7 +836,7 @@
     tag: rock-15.05
     commit: 
 - slam/orogen/tilt_scan:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - slam/pcl:
     mode: 1
@@ -847,16 +847,16 @@
     tag: rock-15.05
     commit: 
 - slam/pose_ekf:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - slam/pose_estimation:
     tag: rock-15.05
     commit: 
 - slam/quater_ikf:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - slam/quater_ukf:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - slam/terrain_estimator:
     tag: rock-15.05
@@ -900,7 +900,7 @@
     tag: rock-15.05
     commit: 
 - tools/port_proxy:
-    branch: rock-14.08
+    branch: rock-15.05
     commit: 
 - tools/rbind:
     branch: master
@@ -910,13 +910,13 @@
     tag: rock-15.05
     commit: 
 - tools/roby:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - tools/rubigen:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - tools/service_discovery:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - tools/syskit:
     tag: rock-15.05
@@ -925,43 +925,43 @@
     tag: rock-15.05
     commit: 
 - tutorials/designer_widget_tutorial:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - tutorials/message_driver:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - tutorials/orogen/message_consumer:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - tutorials/orogen/message_producer:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - tutorials/orogen/rock_tutorial:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - tutorials/orogen/tut_brownian:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - tutorials/orogen/tut_deployment:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - tutorials/orogen/tut_follower:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - tutorials/orogen/tut_sensor:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - tutorials/rock_tutorial:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - tutorials/vizkit3d_plugin_tutorial:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - typelib:
     tag: rock-15.05
     commit: 
 - utilmm:
-    tag: rock-14.08
+    tag: rock-15.05
     commit: 
 - utilrb:
     tag: rock-15.05
