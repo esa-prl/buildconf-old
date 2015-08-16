@@ -47,5 +47,11 @@ overrides:
     - slam/mtk:
       github: rock-slam/slam-mtk.git
       branch: master
+    - tools/class_loader:
+      branch: indigo-devel
+      commit: 7162a3688b0985c7a4bd63852865a15960b03f1f
+
+
+
 
 
