@@ -14,4 +14,7 @@
     branch: onedimensional
     tag:
     commit: 
+- perception/orogen/projection:
+    branch: stable
+    tag: rock-15.05
 
