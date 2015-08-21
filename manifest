@@ -18,4 +18,4 @@ layout:
     # ENVIRE
     - envire/core
 
-    exclude_packages:
+exclude_packages:
