@@ -16,7 +16,7 @@ layout:
     - gui/vizkit3d
 
     # ENVIRE
-    - envire/core
+    - slam/envire_core
 
     - perception/orogen/image_preprocessing
 
