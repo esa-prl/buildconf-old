@@ -30,6 +30,10 @@ overrides:
       branch: onedimensional
     - drivers/orogen/controldev:
       branch: onedimensional
+    - drivers/velodyne_lidar:
+      branch: master
+    - drivers/orogen/velodyne_lidar:
+      branch: master
     - image_processing/orogen/viso2:
       branch: master
     - slam/orogen/.*:
