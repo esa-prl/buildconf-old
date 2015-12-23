@@ -55,5 +55,9 @@ overrides:
       tag: 0.3.2
     - rtt:
       tag: v2.8.1
+    - base/types:
+      branch: master
+    - base/orogen/types:
+      branch: master
 
 
