@@ -15,15 +15,15 @@
 
 #GENERAL SET TO USE C++11
 #
-#Autoproj.post_import do |pkg|
-#    if pkg.kind_of?(Autobuild::CMake)
-#        # set flag in gcc independently of rock macros
-#        pkg.define "CMAKE_CXX_FLAGS","-std=c++11"
-#        # set flag for packages using the rock macros
-#        pkg.define 'ROCK_USE_CXX11','true'
-#    end
-#end
-#
+Autoproj.post_import do |pkg|
+    if pkg.kind_of?(Autobuild::CMake)
+        # set flag in gcc independently of rock macros
+        pkg.define "CMAKE_CXX_FLAGS","-std=c++11"
+        # set flag for packages using the rock macros
+        pkg.define 'ROCK_USE_CXX11','true'
+    end
+end
+
 # SOLUTION USED IN SPACEBOT
 #if Autoproj.respond_to?(:post_import)
 #    # Override the CMAKE_BUILD_TYPE if no tag is set
@@ -43,7 +43,7 @@
 #       end
 #    end
 #end
-#
+
 
 
 Autoproj.env_set 'ORBgiopMaxMsgSize', 16000000
