@@ -40,6 +40,8 @@ overrides:
       branch: master
     - slam/.*:
       branch: master
+    - slam/gtsam:
+      branch: develop
     - exoter/orogen/.*:
       branch: master
     - exoter/.*:
