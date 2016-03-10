@@ -16,7 +16,7 @@ layout:
     - gui/vizkit3d
 
     # ENVIRE
-    - slam/envire_core
+    #- slam/envire_core
 
     - perception/orogen/image_preprocessing
     - drivers/velodyne_lidar
