@@ -18,7 +18,7 @@
 Autoproj.post_import do |pkg|
     if pkg.kind_of?(Autobuild::CMake)
         # set flag in gcc independently of rock macros
-        pkg.define "CMAKE_CXX_FLAGS","-std=c++11"
+        #pkg.define "CMAKE_CXX_FLAGS","-std=c++11"
         # set flag for packages using the rock macros
         pkg.define 'ROCK_USE_CXX11','true'
     end
