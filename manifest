@@ -24,4 +24,3 @@ layout:
 
 
 exclude_packages:
-    - perception/cpu_tsdf
