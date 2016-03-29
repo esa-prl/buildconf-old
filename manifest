@@ -24,3 +24,4 @@ layout:
 
 
 exclude_packages:
+    - perception/visual_stereo
