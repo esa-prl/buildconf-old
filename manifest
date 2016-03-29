@@ -1,6 +1,6 @@
 package_sets:
     - github: rock-core/package_set
-    - github: rock-core/rock-package_set
+    - github: jhidalgocarrio/rock-package_set
     - github: exoter-rover/exoter-package_set
     - github: envire/package_set
 
@@ -16,7 +16,7 @@ layout:
     - gui/vizkit3d
 
     # ENVIRE
-#    - slam/envire_core
+    #- slam/envire_core
 
     - perception/orogen/image_preprocessing
     - drivers/velodyne_lidar
@@ -24,3 +24,4 @@ layout:
 
 
 exclude_packages:
+    - perception/orogen/visual_stereo

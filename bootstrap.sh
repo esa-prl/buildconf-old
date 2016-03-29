@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 
 CONF_URL=${CONF_URL:=https://github.com/exoter-rover/buildconf.git}
 RUBY=ruby
