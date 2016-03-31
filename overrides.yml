@@ -34,6 +34,10 @@ overrides:
       branch: master
     - drivers/orogen/velodyne_lidar:
       branch: master
+    - drivers/vicon:
+      branch: master
+    - drivers/orogen/vicon:
+      branch: master
 
     - slam/orogen/.*:
       branch: master
