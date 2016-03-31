@@ -44,6 +44,9 @@ overrides:
       branch: master
     - perception/.*:
       branch: master
+    - perception/orogen/image_preprocessing:
+      github: exoter-rover/perception-orogen-image_preprocessing.git
+      branch: master
 
     - exoter/orogen/.*:
       branch: master
