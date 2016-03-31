@@ -34,31 +34,39 @@ overrides:
       branch: master
     - drivers/orogen/velodyne_lidar:
       branch: master
-    - image_processing/orogen/viso2:
-      branch: master
+
     - slam/orogen/.*:
       branch: master
     - slam/.*:
       branch: master
+
+    - perception/orogen/.*:
+      branch: master
+    - perception/.*:
+      branch: master
+
     - exoter/orogen/.*:
       branch: master
     - exoter/.*:
       branch: master
+
     - control/orogen/.*:
       branch: master
     - control/.*:
       branch: master
+
     - slam/mtk:
       github: rock-slam/slam-mtk.git
       branch: master
     - slam/pcl:
       tag: pcl-1.7.2
+
     - tools/class_loader:
       tag: 0.3.2
     - rtt:
       tag: v2.8.1
+
     - base/types:
       branch: master
     - base/orogen/types:
       branch: master
-
