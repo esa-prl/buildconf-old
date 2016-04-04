@@ -25,6 +25,7 @@ overrides:
     - drivers/orogen/gnss_trimble:
       branch: master
     - drivers/orogen/camera_bb2:
+      github: exoter-rover/drivers-orogen-camera_bb2.git
       branch: master
     - drivers/controldev:
       branch: onedimensional
