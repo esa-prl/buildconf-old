@@ -1,6 +1,6 @@
 package_sets:
     - github: rock-core/package_set
-    - github: rock/rock-package_set
+    - github: rock-core/rock-package_set
     - github: exoter-rover/exoter-package_set
     - github: envire/package_set
 
