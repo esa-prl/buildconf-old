@@ -15,13 +15,13 @@
 
 #GENERAL SET TO USE C++11
 #
-Autoproj.post_import do |pkg|
+#
+Autobuild::Package.each do |name, pkg|
     if pkg.kind_of?(Autobuild::CMake)
-        # set flag in gcc independently of rock macros
-        pkg.define "CMAKE_CXX_FLAGS", "-std=c++11 #{pkg.defines['CMAKE_CXX_FLAGS']}"
-
-        # set flag for packages using the rock macros
-        pkg.define 'ROCK_USE_CXX11','true'
+        cxx_flags = "#{pkg.defines['CMAKE_CXX_FLAGS']} #{ENV['CXXFLAGS']}"
+        if cxx_flags !~ /-std=c\+\+11/
+            pkg.define "CMAKE_CXX_FLAGS", "#{cxx_flags} -std=c++11"
+        end
     end
 end
 
