@@ -4,40 +4,9 @@
 #
 overrides:
 
-    - drivers/orogen/platform_driver:
+    - drivers/orogen/*:
       branch: master
-    - drivers/platform_driver:
-      branch: master
-    - drivers/iodrivers_base:
-      branch: master
-    - drivers/exar_pcie_uart:
-      branch: master
-    - drivers/imu_stim300:
-      branch: master
-    - drivers/orogen/imu_stim300:
-      branch: master
-    - drivers/ar_tracking:
-      branch: master
-    - drivers/orogen/ar_tracking:
-      branch: master
-    - drivers/gnss_trimble:
-      branch: master
-    - drivers/orogen/gnss_trimble:
-      branch: master
-    - drivers/orogen/camera_bb2:
-      github: exoter-rover/drivers-orogen-camera_bb2.git
-      branch: master
-    - drivers/controldev:
-      branch: onedimensional
-    - drivers/orogen/controldev:
-      branch: onedimensional
-    - drivers/velodyne_lidar:
-      branch: master
-    - drivers/orogen/velodyne_lidar:
-      branch: master
-    - drivers/vicon:
-      branch: master
-    - drivers/orogen/vicon:
+    - drivers/*:
       branch: master
 
     - slam/orogen/.*:
@@ -73,8 +42,23 @@ overrides:
       tag: 0.3.2
     - rtt:
       tag: v2.8.1
+    - tools/logger:
+      branch: master
 
     - base/types:
       branch: master
     - base/orogen/types:
       branch: master
+    - base/numeric:
+      branch: master
+    - base/cmake:
+      branch: master
+    - base/console_bridge:
+      branch: master
+
+    - gui/orogen/*:
+      branch: master
+    - gui/*:
+      branch: master
+
+
