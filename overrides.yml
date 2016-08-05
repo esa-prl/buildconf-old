@@ -4,32 +4,8 @@
 #
 overrides:
 
-    - drivers/orogen/*:
-      branch: master
-    - drivers/*:
-      branch: master
-
-    - slam/orogen/.*:
-      branch: master
-    - slam/.*:
-      branch: master
-
-    - perception/orogen/.*:
-      branch: master
-    - perception/.*:
-      branch: master
-    - perception/orogen/image_preprocessing:
+   - perception/orogen/image_preprocessing:
       github: exoter-rover/perception-orogen-image_preprocessing.git
-      branch: master
-
-    - exoter/orogen/.*:
-      branch: master
-    - exoter/.*:
-      branch: master
-
-    - control/orogen/.*:
-      branch: master
-    - control/.*:
       branch: master
 
     - slam/mtk:
@@ -38,31 +14,8 @@ overrides:
     - slam/pcl:
       tag: pcl-1.7.2
 
-    - tools/*:
-      branch: master
-    - tools/class_loader:
+   - tools/class_loader:
       tag: 0.3.2
     - rtt:
-      tag: v2.8.1
-    - orogen:
-      branch: master
-
-    - base/types:
-      branch: master
-    - base/orogen/types:
-      branch: master
-    - base/numeric:
-      branch: master
-    - base/cmake:
-      branch: master
-    - base/console_bridge:
-      branch: master
-    - base/orogen/std:
-      branch: master
-
-    - gui/orogen/*:
-      branch: master
-    - gui/*:
-      branch: master
-
+      tag: v2.8.2
 
