@@ -38,11 +38,13 @@ overrides:
     - slam/pcl:
       tag: pcl-1.7.2
 
+    - tools/*:
+      branch: master
     - tools/class_loader:
       tag: 0.3.2
     - rtt:
       tag: v2.8.1
-    - tools/logger:
+    - orogen:
       branch: master
 
     - base/types:
@@ -54,6 +56,8 @@ overrides:
     - base/cmake:
       branch: master
     - base/console_bridge:
+      branch: master
+    - base/orogen/std:
       branch: master
 
     - gui/orogen/*:
