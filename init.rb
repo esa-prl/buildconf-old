@@ -30,3 +30,8 @@ Autoproj.env_inherit 'CMAKE_PREFIX_PATH'
 
 Autobuild.env_set 'LANG','C'
 Autobuild.env_set 'LC_NUMERIC','C'
+
+os_system = Autoproj::OSDependencies.operating_system()
+if os_system[0][0].eql? "ubuntu" and os_system[1][0].eql? "16.04"
+    Autobuild.env_set 'TYPELIB_CXX_LOADER', 'castxml'
+end
