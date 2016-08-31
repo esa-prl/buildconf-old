@@ -22,6 +22,9 @@ layout:
     - drivers/velodyne_lidar
     - drivers/orogen/velodyne_lidar
 
+    - control/trajectory_follower
+    - control/orogen/trajectory_follower
+
 
 exclude_packages:
     - perception/cpu_tsdf
