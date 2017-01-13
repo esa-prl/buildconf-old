@@ -15,9 +15,6 @@ layout:
     - gui/vizkit
     - gui/vizkit3d
 
-    # ENVIRE
-    #- slam/envire_core
-
     - perception/orogen/image_preprocessing
     - drivers/velodyne_lidar
     - drivers/orogen/velodyne_lidar
@@ -28,4 +25,3 @@ layout:
 
 exclude_packages:
     - perception/cpu_tsdf
-    - perception/orogen/visual_stereo
