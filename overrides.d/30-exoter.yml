@@ -24,7 +24,7 @@ overrides:
     - tools/class_loader:
       tag: 0.3.2
     - rtt:
-      branch: toolchain-2.9
+      branch: master
     - perception/projection:
       tag: rock-15.05
     - perception/orogen/projection:
