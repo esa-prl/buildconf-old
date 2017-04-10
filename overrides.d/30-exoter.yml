@@ -4,30 +4,33 @@ overrides:
       branch: master
       tag:
       commit:
-    - drivers/iodrivers_base:
-      github: exoter-rover/drivers-iodrivers_base
-      branch: master
+          # NEEDED ? Test if GPS can be read using the master version
+          #    - drivers/iodrivers_base:
+          #      github: exoter-rover/drivers-iodrivers_base
+          #      branch: master
     - drivers/controldev:
       branch: onedimensional
       tag:
       commit:
     - drivers/orogen/controldev:
       branch: onedimensional
-    - perception/orogen/image_preprocessing:
-      github: exoter-rover/perception-orogen-image_preprocessing.git
-      branch: master
+          # Agreed with MARTIN AZKARATE to remove this
+          #    - perception/orogen/image_preprocessing:
+          #      github: exoter-rover/perception-orogen-image_preprocessing.git
+          #      branch: master
     - slam/mtk:
       github: rock-slam/slam-mtk.git
       branch: master
-    - slam/pcl:
-      tag: pcl-1.7.2
-    - tools/class_loader:
-      tag: 0.3.2
-    - rtt:
-      branch: master
-    - perception/projection:
-      tag: rock-15.05
-    - perception/orogen/projection:
-      tag: rock-15.05
+          # NEEDED?
+          #    - slam/pcl:
+          #      tag: pcl-1.8.0
+          #    - tools/class_loader:
+          #      tag: 0.3.2
+          #    - rtt:
+          #      branch: master
+          #    - perception/projection:
+          #      tag: rock-15.05
+          #    - perception/orogen/projection:
+          #      tag: rock-15.05
 
 
