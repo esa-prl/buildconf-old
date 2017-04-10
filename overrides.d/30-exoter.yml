@@ -21,9 +21,9 @@ overrides:
     - slam/mtk:
       github: rock-slam/slam-mtk.git
       branch: master
+    - slam/pcl:
+      tag: pcl-1.8.0
           # NEEDED?
-          #    - slam/pcl:
-          #      tag: pcl-1.8.0
           #    - tools/class_loader:
           #      tag: 0.3.2
           #    - rtt:
