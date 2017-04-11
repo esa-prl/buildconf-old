@@ -25,5 +25,4 @@ layout:
 
 exclude_packages:
     - perception/cpu_tsdf
-    - slam/envire
     - perception/orogen/visual_stereo
