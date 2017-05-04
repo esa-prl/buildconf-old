@@ -23,14 +23,20 @@ overrides:
       branch: master
     - slam/pcl:
       tag: pcl-1.8.0
-          # NEEDED?
-          #    - tools/class_loader:
-          #      tag: 0.3.2
-          #    - rtt:
-          #      branch: master
-          #    - perception/projection:
-          #      tag: rock-15.05
-          #    - perception/orogen/projection:
-          #      tag: rock-15.05
 
+    # Adaptions of packages to ROCK master. Remove if switching permanently to ROCK master
+    # NOTE: The following is a candidate for a PULL REQUEST :)
+    - control/waypoint_navigation:
+      branch: rock-master
+    - control/orogen/waypoint_navigation:
+      branch: rock-master
 
+    # Exoter specific stuff
+    - control/orogen/motion_translator:
+      branch: rock-master
+    - control/orogen/command_arbiter:
+      branch: rock-master
+    - perception/dem_generation:
+      branch: rock-master
+    - perception/orogen/dem_generation:
+      branch: rock-master
