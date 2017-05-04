@@ -40,3 +40,5 @@ overrides:
       branch: rock-master
     - perception/orogen/dem_generation:
       branch: rock-master
+    - perception/orogen/cartographer:
+      branch: rock-master
