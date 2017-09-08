@@ -22,6 +22,18 @@ layout:
     - control/trajectory_follower
     - control/orogen/trajectory_follower
 
+    - control/orogen/locomotion_switcher
+    - control/orogen/slippage_estimator
+    - control/orogen/gps_heading
+    - planning/path_planning
+    - planning/orogen/path_planning
+
+    # Remove these later!!! They belong to a SARGON test from the 03/05/2017
+    - tools/cmake
+    - base/taste/task_adaptor
+    - drivers/taste/camera_bb2_task
+    - drivers/taste/camera_firewire_task
+    - drivers/taste/camera_base_task
 
 exclude_packages:
     - perception/cpu_tsdf
